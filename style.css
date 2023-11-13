@@ -1,0 +1,76 @@
+#main {
+    font-family: 'Libre Baskerville', serif;  
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+#header {
+    background:  rgb(154, 169, 234); 
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    margin: 10px;
+    margin-bottom: 50px;
+    padding-left: 1rem;
+    color: whitesmoke;
+}
+
+.em {
+    align-self: self-start;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.em2 {
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+    & img {
+        width: 25px;
+        float:inline-start;
+        padding-right: 15px;
+    }
+}
+
+.cc {
+    border-radius: 20px;
+    background: transparent; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: fit-content; 
+    padding: .5rem;
+}
+
+.mid {
+    align-self:flex-end;
+    display: flex;
+    align-content: flex-end;
+    flex-flow: row;
+}
+
+.top {
+    padding: 20px; 
+    border-radius: 15px;
+    background:  rgb(154, 169, 234); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    margin: 10px; 
+    margin-right: 200px;
+    font-size: small;
+    width: 15%;
+}
+
+.goalSection {
+    background: transparent; 
+    color: black; 
+    text-align:left;
+    padding: 40px; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    margin: 10px; 
+}
+
+.goalSection {
+    color: rgb(34, 31, 31);
+}
+
